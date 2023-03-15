@@ -1,0 +1,23 @@
+area += f(cX);
+		cX += dx;
+
+		double temp = 0;
+		for(int i = 1; i < (n/2);)
+		{
+			temp += f((2*i-1) + cX);
+			cX += dx;
+			i++;
+		}
+		area += temp * 4;
+		temp = 0;
+
+		for(int i = 1; i < (n/2-1);)
+		{
+			temp += f((2*i) + cX);
+			cX += dx;
+			i++;
+		}
+		area += temp * 2;
+
+		area += f(cX);
+		cX += dx;

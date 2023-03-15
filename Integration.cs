@@ -17,7 +17,7 @@ public class Integration
 		//Console.Write(LRAMIntegrate(1, 4, 100000));
 		//Console.Write(TrapezoidIntegrate(1, 4, 3));
 		//Console.WriteLine(SimpsonsIntegrate(1, 4, 6));
-		Console.WriteLine(CompositeSimpsonsIntegrate(1, 4, 6, 2));
+		Console.WriteLine(CompositeSimpsonsIntegrate(1, 4, 6, 3));
 	}
 	
 	public static double LRAMIntegrate(float a, float b, int rectNum)
@@ -71,7 +71,7 @@ public class Integration
 		float cX = a;
 		double area = 0f;
 
-		area += f(1);
+		area += f(cX);
 		cX += dx;
 		area += (4*f(cX));
 		cX += dx;
@@ -94,6 +94,7 @@ public class Integration
 
 		//Console.WriteLine(area);
 
+		
 		area = (dx / 3) * area;
 		return area;
 	}
@@ -117,6 +118,10 @@ public class Integration
 
 		for(int i = 0; i < n;) {
 			area += SimpsonsIntegrate(a + (i*h), a + ((i+1)*h), num);
+			Console.WriteLine(a + (i * h));
+			Console.WriteLine();
+			Console.WriteLine(a + ((i + 1) * h));
+			Console.WriteLine();
 			i++;
 		}
 
