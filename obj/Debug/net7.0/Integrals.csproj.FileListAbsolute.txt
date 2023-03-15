@@ -1,0 +1,15 @@
+C:\Users\Gio\Desktop\Integrals\bin\Debug\net7.0\Integrals.exe
+C:\Users\Gio\Desktop\Integrals\bin\Debug\net7.0\Integrals.deps.json
+C:\Users\Gio\Desktop\Integrals\bin\Debug\net7.0\Integrals.runtimeconfig.json
+C:\Users\Gio\Desktop\Integrals\bin\Debug\net7.0\Integrals.dll
+C:\Users\Gio\Desktop\Integrals\bin\Debug\net7.0\Integrals.pdb
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.csproj.AssemblyReference.cache
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.AssemblyInfoInputs.cache
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.AssemblyInfo.cs
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.csproj.CoreCompileInputs.cache
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.dll
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\refint\Integrals.dll
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.pdb
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\Integrals.genruntimeconfig.cache
+C:\Users\Gio\Desktop\Integrals\obj\Debug\net7.0\ref\Integrals.dll
